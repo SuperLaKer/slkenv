@@ -1,0 +1,54 @@
+重载：
+不管返回值，参数要一样
+
+List<E> extends Collection<E>
+
+public interface Map<K,V>
+
+Collection  Set和List
+
+2、List 有序，可重复
+|--ArrayList
+|--Vector(arr notSafe)
+|--LinkedList(safe)
+
+
+3、Set 无序，唯一
+|--LinkedHashSet: 底层数据结构是链表和哈希表，由链表保证元素有序，由哈希表保证元素唯一
+|--TreeSet:
+底层数据结构是红黑树，
+如何保证元素的排序：
+自然排序：让元素所属的类实现Comparable接口
+比较器排序：让集合接收一个Comparator的实现类对象
+如何保证元素的唯一性：
+根据比较的返回值是否是0来决定的
+
+
+27. HashMap和Hashtable的区别。
+1、Hashtable是基于Dictionary类的，HashMap是Map接口的一个实现类
+2、Hashtable是线程安全的，即是同步的；HashMap线程不是安全的，不是同步的。
+3、HashMap可以将空值作为key或value
+
+
+线程、反射、枚举、泛型：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

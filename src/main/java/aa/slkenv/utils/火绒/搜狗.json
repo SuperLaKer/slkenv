@@ -1,0 +1,82 @@
+{
+  "data": [
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\crashrpt.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\Install64.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\PinyinUp.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\SGDownload.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\SGKaomoji.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\SGMedalLoader.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\SGTool.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\SogouCloud.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\SogouImeRepair.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\Uninstall.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\10.1.0.4428\\userNetSchedule.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\Components\\crashrpt.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\Components\\PicFace\\1.1.0.1876\\SGPicFaceTool.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\Components\\SkinBox\\1.0.0.439\\skinbox.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\Components\\SogouComMgr.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\Components\\SogouFlash\\2.2.0.278\\SogouFlash.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\Components\\VoiceInput\\1.0.0.170\\VoiceInput.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\SogouExe\\SogouExe.exe"
+    },
+    {
+      "block": true,
+      "procname": "E:\\Program Files (x86)\\SogouInput\\SogouExe\\SogouSvc.exe"
+    }
+  ],
+  "tag": "appnetctrl",
+  "ver": "5.0"
+}

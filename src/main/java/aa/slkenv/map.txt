@@ -1,0 +1,20 @@
+29. HashMap、LinkedHashMap、ConcurrentHashMap、ArrayList、LinkedList的底层实现。
+
+1、HashMap是java数据结构中两大结构数组和链表的组合。HashMap底层数组，数组中的每一项又是一个链表。
+    程序会先根据key的hashcode（）方法返回值决定该Entry在数组中的
+    存储位置，如果该位置上没有元素，就会将元素放置在此位置上，如果两个Entry的key相同，会调用equals
+    返回值是true则覆盖原来的value值，返回false则会形成Entry链，位于头部
+
+2、ArrrayList的底层实现是数组，在执行add操作时，会先检查数组 大小是否可以容纳新的元素，如果不够就会进行扩容。然后会将原来的数据拷贝到新的数组中
+3、LinkedList底层是一个链表，其实现增删改查和数据结构中的操作完全相同，而且插入是有序的
+4、LinkedHashMap的底层结构式是双链表，其他的逻辑处理与HashMap一致，同样没有锁保护，多线程使用时存在风险
+5、ConcurrentHashMap是segment数组结构和HashEntry数组结构组成的，segment在ConcurrentHashMap中充当锁的角色，HashEntry用于存储键值对数据。
+    segment的结构是数组和链表，一个segment中有一个HashEntry，每个HashEntry是一个链表结构的元素。
+    对HashEntry中的数据进行修改时，需要先获得它所对应的segment锁。每个ConcurrentHashMap
+    默认有16个segment。
+
+
+ConcurrentHashMap
+
+
+    在保证线程安全的同时降低了锁的粒度，让并发操作效率更高

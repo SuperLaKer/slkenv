@@ -1,0 +1,16 @@
+ArrayList
+LinkedList
+
+Vector(数组), 安全
+
+-------------------------------
+
+
+Queue<E> extends Collection<E>
+
+Stack, 安全
+
+Set, list, queue
+
+
+Map: H
