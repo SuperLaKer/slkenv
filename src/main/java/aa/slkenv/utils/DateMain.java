@@ -1,4 +1,4 @@
-package aa.slkenv.base.date;
+package aa.slkenv.utils;
 
 import java.text.DateFormat;
 import java.text.ParseException;

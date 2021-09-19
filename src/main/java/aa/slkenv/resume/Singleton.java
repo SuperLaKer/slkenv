@@ -1,4 +1,4 @@
-package aa.slkenv.面试;
+package aa.slkenv.resume;
 
 public class Singleton {
 
