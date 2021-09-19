@@ -9,14 +9,7 @@ repositories {
     mavenLocal()
     mavenCentral()
 }
-ext {
-    scope='implementation'
-}
-idea {
-    module {
-        downloadSources = true
-    }
-}
+
 dependencies {
 
     implementation 'com.baomidou:mybatis-plus-generator:3.4.1'
