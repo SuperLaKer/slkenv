@@ -7,7 +7,6 @@ group 'aa.my'
 version 'v1'
 repositories {
     mavenLocal()
-    maven { url 'https://maven.aliyun.com/repository/public/' }
     mavenCentral()
 }
 ext {
@@ -26,8 +25,7 @@ dependencies {
         exclude group: 'org.springframework'
     }
     implementation("org.springframework.data:spring-data-jpa:2.2.5.RELEASE")
-
-
+    implementation("org.springframework.data:spring-data-redis:2.2.5.RELEASE")
 
     implementation 'com.alibaba:druid:1.1.4'
     implementation 'org.hibernate.validator:hibernate-validator:6.1.7.Final'
@@ -52,6 +50,8 @@ dependencies {
 
 
     implementation 'org.hibernate:hibernate-entitymanager:5.4.31.Final'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.12.4'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.4'
 }
 // 指定上传的路径
 def localMavenRepo = 'file://' + new File('d:/env/repository', './maven').absolutePath

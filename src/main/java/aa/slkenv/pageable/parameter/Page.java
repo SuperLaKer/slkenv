@@ -1,16 +1,11 @@
 package aa.slkenv.pageable.parameter;
 
-import lombok.Data;
-import lombok.ToString;
-
 /**
  * @author lla, 2021/2/9  21:42
  * <p>
  * 方案一：id数据连续，提供页码、每页条数
  * 方案二：id不连续，当前id,每页条数
  */
-@Data
-@ToString
 public class Page {
 
     // 当前id

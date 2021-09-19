@@ -74,11 +74,13 @@ public class PagePlugin implements Interceptor {
 
         // 连续
         if (pageNum != null && currentId == null) {
+            currentId = (pageNum - 1) * size + 1;
             StringBuilder stringBuilder = new StringBuilder();
+            String sql = " limit "+  currentId +" , " + size + ") as ids_derived on ";
             stringBuilder.append(sqlHead)
                     .append(" inner join (select id from ")
                     .append(databaseName)
-                    .append(" limit 10, 5) as ids_derived on ").append(databaseName).append(".id = ids_derived.id");
+                    .append(sql).append(databaseName).append(".id = ids_derived.id");
 
             return new String(stringBuilder);
         }

@@ -49,31 +49,3 @@ public class NetStruct implements Serializable {
     }
 }
 
-class DATA implements Serializable {
-    String procname;
-    Boolean block;
-
-
-    public DATA(String procname) {
-        this.block = true;
-        this.procname = procname;
-    }
-
-    public String getProcname() {
-        return procname;
-    }
-
-    public void setProcname(String procname) {
-        this.procname = procname;
-    }
-
-    public Boolean getBlock() {
-        return block;
-    }
-
-    public void setBlock(Boolean block) {
-        this.block = block;
-    }
-
-
-}
