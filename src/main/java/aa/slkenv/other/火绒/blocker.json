@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZip.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipAce32Loader.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipC.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipCD.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipHomePage.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipLoader.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipLoader32.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipMd5.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipRename.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipReplace.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipTool.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\HaoZipUpdate.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Haozip_2345Upgrade.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Protect\\HaozipAssistant.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Protect\\HaozipMiniPage.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Protect\\HaozipSvc.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Protect\\Helper_Haozip.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Protect\\ServiceManager.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Protect\\Tool_Uninstall.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\tool\\Haozip_2345DLAgent.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\tool\\Update_Haozip.exe"
+    },
+    {
+      "block": true,
+      "procname": "D:\\Program Files\\2345Soft\\HaoZip\\Uninstall.exe"
+    }
+  ],
+  "tag": "appnetctrl",
+  "ver": "5.0"
+}
