@@ -38,7 +38,11 @@ dependencies {
     implementation 'org.hibernate:hibernate-entitymanager:5.4.31.Final'
     implementation 'com.fasterxml.jackson.core:jackson-annotations:2.12.4'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.4'
+    implementation 'org.redisson:redisson:3.16.7'
 
+    compileOnly 'org.springframework.boot:spring-boot-starter-oauth2-resource-server:2.3.12.RELEASE'
+    compileOnly 'org.springframework.cloud:spring-cloud-starter-oauth2:2.2.5.RELEASE'
+    annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor:2.2.5.RELEASE'
     annotationProcessor('org.projectlombok:lombok:1.18.20')
 }
 // 指定上传的路径
